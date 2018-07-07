@@ -1,0 +1,26 @@
+.confirmation {
+  background: $light-blue;
+
+  &, a {
+    color: $white;
+  }
+  a:hover {
+    color: darken($white, 20%);
+  }
+  a:focus {
+    color: $black;
+  }
+
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+}
