@@ -81,11 +81,7 @@
   @include button-primary;
 }
 
-.btn, a.btn:link, button, input[type=submit] {
-  @include button-primary;
-}
-
-.btn-primary, .btn-secondary {
+.btn, a.btn:link, a.button, a.button:link, button, input[type=submit], .button, .btn-primary, .btn-secondary {
   @include button-primary;
 }
 
