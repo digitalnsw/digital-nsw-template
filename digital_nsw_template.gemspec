@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'digital_nsw_template/version'
 
 Gem::Specification.new do |s|
-  s.name          = "digital-nsw-template"
+  s.name          = "digital_nsw_template"
   s.version       = DigitalNswTemplate::VERSION
   s.authors       = ['NSW Department of Finance, Services and Innovation']
   s.summary       = 'Base stylesheets for the Digital NSW template'
