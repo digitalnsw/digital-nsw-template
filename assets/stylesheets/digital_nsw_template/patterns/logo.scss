@@ -19,7 +19,7 @@
     width: 4.5rem;
   }
   span.logo {
-    background: url('nsw-logo.png') no-repeat 0px 0px / cover;
+    background: $nsw-logo-image-path no-repeat 0px 0px / cover;
     text-indent: -9999px;
 
     height: 5rem;
