@@ -51,8 +51,7 @@ module DigitalNswTemplate
     end
 
     def register_rails_engine
-      raise 'TODO'
-      # require 'bootstrap/engine'
+      require 'digital_nsw_template/engine'
     end
 
     def register_sprockets
