@@ -21,6 +21,13 @@
 .one-third {
   @include one-third;
 }
+.one-third-inside-row {
+  @include one-third($inside-row: true);
+}
+
 .two-thirds {
   @include two-thirds;
+}
+.two-thirds-inside-row {
+  @include two-thirds($inside-row: true);
 }
