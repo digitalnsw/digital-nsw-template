@@ -7,7 +7,7 @@ body {
 main {
   min-height: 75vh;
 
-  &:not(.without-container) {
+  &:not(.full-width) {
     @include make-container();
     @include make-container-max-widths();
     padding-top: 2rem;
