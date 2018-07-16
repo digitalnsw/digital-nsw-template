@@ -19,9 +19,12 @@
     width: auto;
   }
 
+  &:hover, &:focus {
+    color: $white;
+  }
+
   &:focus {
     outline: 3px solid $focus-colour;
-    color: $white;
   }
 
   &.disabled,
