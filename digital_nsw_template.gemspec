@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'sass', '>= 3.5.2'
   s.add_runtime_dependency 'sprockets', '>= 3.7.0'
-  s.add_runtime_dependency 'bootstrap', '~> 4.0.0'
+  s.add_runtime_dependency 'bootstrap', '~> 4.0'
 
   s.files = `git ls-files`.split("\n")
 end
