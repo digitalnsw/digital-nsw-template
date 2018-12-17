@@ -100,7 +100,7 @@ header.global {
 
       @include media-breakpoint-up(sm) {
         padding-left: 1em;
-        padding-right: 0;
+        padding-right: 1em;
       }
     }
   }
